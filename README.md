@@ -15,7 +15,7 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
     5. [Sublime Text Robot Framework Plugin](#sublime-text-robot-framework-plugin)
     6. [Bitbucket/Git](#bitbucket)
 3. [Installation](#3-installation)
-4. [Core](#4-core)
+4. [The Test Project Setup](#4-test-project-setup)
 5. [Components](#5-components)
 6. [Overall](#6-overall)
 
@@ -131,10 +131,49 @@ Signup for a trial account [here](https://saucelabs.com/signup/trial).
 
 [Back to top](#table-of-contents)
 
-## 4. Core
+## 4. Test Project Setup
+Before we create our very first test we need to setup first our **Test Project**.
+
+#### Folder structure
+
+ - Project root directory
+     - resources/
+         - main.resource.robot
+         - login.resource.robot
+         - ...
+     - libs/
+     - tests/
+         - login/
+             - test.robot
+             - test2.robot
+             - ...
+         - register/
+         - contact_us/
+         - ...
+
+#### Tests folder
+
+On our project setup we will have 3 main folders: tests, resources and libs. On the folder **tests**, we will be putting all our test cases and notice the added folders inside of it. This is to organise each feature like login, register and contact us in one container.
+
+Let's say you have additional feature you can just create a new folder and put all related test cases inside. This way, we will not convolute our test cases and mixed with our files.
+
+#### Resources folder
+
+Inside this **resources** folder, we will include all common keywords that we can use for our test cases. We can have a main common resource file or a certain resource for a certain feature for example login resource for login feature.
+
+I prefer to have a granular resource file that we can use all over our test cases.
+
+
+#### Libs folder
+
+Since we are working on Python environment we will try creating our own plugin that will provide our own functionality. This custom plugin should be put inside this **libs** folder. This can be empty on the very early stage of your test project but this folder will be use in time.
+
 
 [Back to top](#table-of-contents)
 
+#### How about the generated reports ?
+
+Those files will be auto generated when we run our tests files.  We will just leave it on the root folder since Jenkins will automatically fetch once the Jenkins job is done processing your test cases.
 
 ## 5. Components
 
