@@ -6,34 +6,43 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
 
 ## Table of Contents
 
-1. [Context](#context)
-2. [Overview](#overview)
-3. [Requirements](#requirements)
-4. [Installation](#installation)
-5. [Core](#core)
-6. [Components](#components)
-7. [Overall](#overall)
+1. [Introduction](#1-context)
+2. [Requirements](#2-requirements)
+    1. [Robot Framework](#robot-framework)
+    2. [Selenium2Library](#selenium2library)
+    3. [Jenkins](#jenkins)
+    4. [SauceLabs](#saucelabs)
+    5. [Sublime Text Robot Framework Plugin](#st-plugin)
+3. [Installation](#3-installation)
+4. [Core](#4-core)
+5. [Components](#5-components)
+6. [Overall](#6-overall)
 
 ## 1. Context
 
-After couple of Google searching and spending hours of watching Youtube videos regarding automation testing environment, I finally created this simple guide on how you can setup your own. This guide will tackle on how you can easily set it up for your QA team and even your Development team.
-
-Once you finished this styleguide for Robot Framework and Selenium2Library, I'm sure you are now confident on making this kind of setup in any project you might get to. Lastly, do this on the early part of your development stage rather doing it later.
-
 *Remember, test now or suffer later...*
 
+After couple of Google searching and spending hours of watching Youtube videos regarding automation testing environment, I finally created this simple guide on how you can setup your own. This guide will tackle on how you can easily set it up for your QA team and even your Development team.
+
+Once you finished this styleguide for Robot Framework and Selenium2Library, I'm sure you are now confident on making this kind of setup in any project you might get into. Lastly, do this on the early part of your development stage rather doing it later.
+
+
 
 [Back to top](#table-of-contents)
 
 
-## 2. Overview
+## 2. Requirements
 
-Robot Framework offer a very descriptive documentation on how to use their testing framework but here we will create our own testing structure that can help you to build a scalable and maintainable testing environment. Why?
+#### Robot Framework
+Robot Framework offer a very descriptive documentation on how to use their testing framework but here we will create our own testing structure that can help you to build a scalable and maintainable testing environment. Why? So if there will be a newcomer on your project especially QA engineer, they can seamlessly adapt on your development team.
+
+#### Selenium2Library
+In order to manipulate browser, we will be using Selenium2Library for Robot Framework. This external plugin offers various keywords such as "Open Browser" and this list of keywords is available from their website.
+
 
 [Back to top](#table-of-contents)
 
-
-## 3. Requirements
+## 3. Installation
 
 [Back to top](#table-of-contents)
 
