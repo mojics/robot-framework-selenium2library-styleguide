@@ -1,4 +1,4 @@
-# Robot Framework / Selenium2Library Styleguide
+# Robot Framework / Selenium2Library Testing Environment Styleguide
 
 This Robot Framework / Selenium2Library is based from couple of sources and tips from my colleagues. These guides can be outdated or not in your taste. You can drop a pull request so we can talk about it.
 
@@ -14,6 +14,9 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
 6. [Overall](#overall)
 
 ## 1. Context
+
+After couple of Google searching and spending hours of watching Youtube videos regarding automation testing environment, I finally created this simple guide on how you can setup your own. This guide will tackle on how you can easily set it up for your QA team and even your Development team.
+
 
 [Back to top](#table-of-contents)
 
