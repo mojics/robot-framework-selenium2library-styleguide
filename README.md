@@ -82,18 +82,26 @@ You can make your own account from [Bitbucket](https://bitbucket.org/account/sig
 
 ## 3. Installation
 
-#### Robot Framework:
+On this part we will be working on making your first test environment. We need this following to continue the installation:
+
+ - Python
+ - Java
+ - Virtual Machine (we will add support for Vagrant in the future)
+
+Make sure you have the following in order to install the listed software below.
+
+#### Robot Framework
 
 > pip install robotframework
 
 
 
-#### Selenium2Library:
+#### Selenium2Library
 
 > pip install --upgrade robotframework-seleniumlibrary
 
 
-#### Jenkins:
+#### Jenkins
 
 > java -jar jenkins.war
 
@@ -112,7 +120,7 @@ After running Jenkins, you can visit  Manage Plugins page and install the follow
 
 After installation make sure to **restart** your Jenkins instance.
 
-#### Saucelabs:
+#### Saucelabs
 
 
 Signup for a trial account [here](https://saucelabs.com/signup/trial).
