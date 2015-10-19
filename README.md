@@ -41,7 +41,8 @@ Robot Framework offer a very descriptive documentation on how to use their testi
 #### Selenium2Library
 In order to manipulate browser, we will be using Selenium2Library for Robot Framework. This external plugin offers various keywords such as "Open Browser" and this list of keywords is available from their website.
 
-Since we are building a test framework for websites we will be using Selenium2Library.
+Since we are building a test framework for websites we will be using Selenium2L
+ibrary.
 
 [Back to top](#table-of-contents)
 
@@ -66,10 +67,34 @@ This plugin for Sublime Text 3 is optional but since I'm using Sublime Text on m
 
 [Back to top](#table-of-contents)
 
+
 ## 3. Installation
 
-[Back to top](#table-of-contents)
+#### Robot Framework:
 
+> pip install robotframework
+
+#### Selenium2Library:
+
+> pip install --upgrade robotframework-seleniumlibrary
+
+#### Jenkins:
+
+> java -jar jenkins.war
+
+
+After running the code above the Jenkins user interface is accessible via http://localhost:8080
+
+Download Jenkins latest-stable file from [here](http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war).
+
+
+#### Saucelabs:
+
+
+Signup for a trial account [here](https://saucelabs.com).
+
+
+[Back to top](#table-of-contents)
 
 ## 4. Core
 
