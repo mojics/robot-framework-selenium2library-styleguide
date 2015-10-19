@@ -60,6 +60,3 @@ In order to manipulate browser, we will be using Selenium2Library for Robot Fram
 ## 6. Overall
 
 [Back to top](#table-of-contents)
-
-
-*emphasized text*
