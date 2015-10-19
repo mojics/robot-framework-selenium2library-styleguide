@@ -13,6 +13,7 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
     3. [Jenkins](#jenkins)
     4. [SauceLabs](#saucelabs)
     5. [Sublime Text Robot Framework Plugin](#sublime-text-robot-framework-plugin)
+    6. [Bitbucket/Git](#bitbucket)
 3. [Installation](#3-installation)
 4. [Core](#4-core)
 5. [Components](#5-components)
@@ -68,15 +69,29 @@ This plugin for Sublime Text 3 is optional but since I'm using Sublime Text on m
 [Back to top](#table-of-contents)
 
 
+#### Bitbucket
+
+We need to experience a bit of real world process, so we need to start  working with GIT and to do that is to have an account from Bitbucket. You can use other free GIT hosting but I prefer Bitbucket since Jenkins provide a plugin for integrating Bitbucket.
+
+You can make your own account from [Bitbucket](https://bitbucket.org/account/signup/).
+
+[Back to top](#table-of-contents)
+
+
+
+
 ## 3. Installation
 
 #### Robot Framework:
 
 > pip install robotframework
 
+
+
 #### Selenium2Library:
 
 > pip install --upgrade robotframework-seleniumlibrary
+
 
 #### Jenkins:
 
@@ -87,11 +102,23 @@ After running the code above the Jenkins user interface is accessible via http:/
 
 Download Jenkins latest-stable file from [here](http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war).
 
+#### Jenkins plugin for Robot Framework
+
+After running Jenkins, you can visit  Manage Plugins page and install the following plugins:
+
+ - Robot Framework
+ - Bitbucket Plugin (we will be hosting our test project on Bitbucket)
+ - Sauce OnDemand (optional)
+
+After installation make sure to **restart** your Jenkins instance.
 
 #### Saucelabs:
 
 
-Signup for a trial account [here](https://saucelabs.com).
+Signup for a trial account [here](https://saucelabs.com/signup/trial).
+
+
+
 
 
 [Back to top](#table-of-contents)
