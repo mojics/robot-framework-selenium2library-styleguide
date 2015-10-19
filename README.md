@@ -12,7 +12,7 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
     2. [Selenium2Library](#selenium2library)
     3. [Jenkins](#jenkins)
     4. [SauceLabs](#saucelabs)
-    5. [Sublime Text Robot Framework Plugin](#st-plugin)
+    5. [Sublime Text Robot Framework Plugin](#sublime-text-robot-framework-plugin)
 3. [Installation](#3-installation)
 4. [Core](#4-core)
 5. [Components](#5-components)
@@ -39,6 +39,11 @@ Robot Framework offer a very descriptive documentation on how to use their testi
 #### Selenium2Library
 In order to manipulate browser, we will be using Selenium2Library for Robot Framework. This external plugin offers various keywords such as "Open Browser" and this list of keywords is available from their website.
 
+#### Jenkins
+
+#### Saucelabs
+
+#### Sublime Text Robot Framework Plugin
 
 [Back to top](#table-of-contents)
 
