@@ -6,22 +6,29 @@ Note: This guide's format was also taken from my senchatouch2-styleguide
 
 ## Table of Contents
 
-1. [Context](#1-context)
-2. [Overview](#2-overview)
-3. [Requirements](#3-requirements)
-4. [Core](#4-core)
-5. [Components](#5-components)
-6. [Overall](#overall)
+1. [Context](#context)
+2. [Overview](#overview)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+5. [Core](#core)
+6. [Components](#components)
+7. [Overall](#overall)
 
 ## 1. Context
 
 After couple of Google searching and spending hours of watching Youtube videos regarding automation testing environment, I finally created this simple guide on how you can setup your own. This guide will tackle on how you can easily set it up for your QA team and even your Development team.
+
+Once you finished this styleguide for Robot Framework and Selenium2Library, I'm sure you are now confident on making this kind of setup in any project you might get to. Lastly, do this on the early part of your development stage rather doing it later.
+
+*Remember, test now or suffer later...*
 
 
 [Back to top](#table-of-contents)
 
 
 ## 2. Overview
+
+Robot Framework offer a very descriptive documentation on how to use their testing framework but here we will create our own testing structure that can help you to build a scalable and maintainable testing environment. Why?
 
 [Back to top](#table-of-contents)
 
@@ -46,3 +53,4 @@ After couple of Google searching and spending hours of watching Youtube videos r
 [Back to top](#table-of-contents)
 
 
+*emphasized text*
